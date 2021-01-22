@@ -25,9 +25,9 @@ end
 
 def return_string_array(array)
   i = 0
-  string_array = [ ' ']
+  string_array = [ ]
   while i < array.size
-    string_array.push(array[i])
+    string_array.push(array[i].to_s)
     i += 1 
   end
   string_array
