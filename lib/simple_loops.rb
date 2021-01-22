@@ -25,7 +25,7 @@ end
 
 def return_string_array(array)
   i = 0
-  string_array[]
+  string_array = []
   while i < array.size
     string_array.push(array[i])
     i += 1 
